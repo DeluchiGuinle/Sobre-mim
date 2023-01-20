@@ -1,2 +1,2 @@
 # Sobre-mim
-Trabalho de Web-Designer!
+Conheça um pouco sobre minha mini-biografia!
