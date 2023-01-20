@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Site para mostrar a minha mini-biografia"/>
+    <meta name="keywords" content="Um pouco sobre mim, Deluchi"/>
+    <meta name="author" content="Gabriel Deluchi"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon"/>
+    <title>Sobre mim</title>
+
+</head>
+<body>
+    <nav>
+        <div>
+            <input type="radio" name="contraste" class="buttons_menu" id="contraste_normal" value="normal"  onchange="changeFundo()"checked>
+            <input type="radio" name="contraste" class="buttons_menu" id="contraste_branco" value="branco" onchange="changeFundo()">
+            <input type="checkbox" name="som" id="sound_checkbox" class="buttons_menu">
+            <label class="label label1 fas fa-eye " for="contraste_normal" id="label_normal"></label>
+            <label class="label label2 fas fa-sun " for="contraste_branco" id="label_branco"></label>
+            <label class="label label4 fas" for="sound_checkbox" id="label_sound"></label>
+        </div>
+        
+        <div class="menu">
+            <ul>
+                <li onclick="playUSA()"><h4>Gabriel Deluchi</h4></li>
+            </ul>
+        </div>
+   
+        <div class="menu">
+            <ul>
+                <li onclick="irConteudo()">Conteúdo</li>
+                <li onclick="irRodape()">Rodapé</li>
+            </ul>
+        </div>
+    </nav> 
+    <header>
+
+        <div class="img_header_back">
+            <img src="img/header-bg.jpg" alt="Profile image">
+            <div class="divider"></div>
+            <div class="linhas"></div>
+        </div>
+
+    </header>
+    <main class="estrutura">
+        <div class="titulo_header" id="titulo_header">
+            <div>
+                <p class="first"><u>Gabriel</u></p>
+                <p class="second"><u>Deluchi</u></p>
+            </div>
+        </div>
+
+        <div class="item sidenav"></div>
+        <div class="item content">
+           
+           <!-- <img src="img/background_header.jpg" alt="Profile image" class="imgs_content"> -->
+           <div align="center">
+            <img src="https://user-images.githubusercontent.com/98788821/209613380-c02479b3-5bd5-44ed-8e28-7e0339abe5c6.gif" alt="">
+           </div>
+
+            <h1 class="title_content"><u>Sobre mim</u></h1>
+            
+            <p>Meu nome é <b><u>GABRIEL</u> <u>DELUCHI</u></b> sou estudante do <i><b>IFC - Campus Videira</b></i>, estou cursando o Ensino Médio Integrado ao Curso Técnico em Informática, 
+               eu nasci em Tangará (Santa Catarina), mas sempre residi em Pinheiro Preto (Santa Catarina), tenho 16 anos de idade e quero fazer uma
+               faculdade de Ciências Contábeis ou Direito Trabalhista e Empresarial.
+            </p>
+<hr>         
+<hr>
+<br>
+        <h1 class="title_content"><u>Links</u></h1> 
+            <div class="tecs_imgs">
+             <ul>
+                <a href="https://web.whatsapp.com/" target="_blank"> <img src="https://img.shields.io/badge/WhatsApp-darkgreen.svg?&style=for-the-badge&logo=WhatsApp&logoColor=white" alt="WhatsApp" /></a>
+                <a href="mailto:gabrieldeluchi6@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/Gmail-%2300C4CC.svg?&style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail" /></a>
+                <a href="https://www.instagram.com/g.deluchi/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+                <a href="https://github.com/DeluchiOtsutsuki"  target="_blank"><img src="https://img.shields.io/badge/-Github-%23333?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+                <a href="https://www.linkedin.com/in/gabriel-deluchi-777715254/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin"></a> 
+            </div>
+           </ul>  
+<hr>           
+<hr>
+<br>
+     <h1 class="title_content"><u>Habilidades</u></h1>
+
+             <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5"/></a>
+             <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/></a>
+             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1Eg" alt="javascript"/></a>
+             <a href="https://git-scm.com/" target="_blank"> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></a>
+             <a href="https://github.com/DeluchiOtsutsuki"  target="_blank"><img src="https://img.shields.io/badge/-Github-%23333?style=for-the-badge&logo=github&logoColor=white" alt="Github"/></a>
+             <a href="#"  target="_blank"><img src="https://img.shields.io/badge/-CSHARP-purple?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/></a>
+             <a href="#"  target="_blank"><img src="https://img.shields.io/badge/-Python-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
+             <a href="#"  target="_blank"><img src="https://img.shields.io/badge/-Kotlin-pink?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/></a>      
+<hr>         
+<hr>
+<br>
+        <h1 class="title_content"><u>Aprendendo</u></h1>
+          <div class="tecs_imgs">
+            <ul>
+                <a href="#"  target="_blank"><img src="https://img.shields.io/badge/-Ruby-darkred?style=for-the-badge&logo=ruby&logoColor=white" alt="Ruby"/></a>                                       
+                <a href="#"  target="_blank"><img src="https://img.shields.io/badge/-MySql-yellow?style=for-the-badge&logo=mysql&logoColor=white" alt="MySql"/></a>
+                <a href="#"  target="_blank"><img src="https://img.shields.io/badge/-SqlServer-white?style=for-the-badge&logo=microsoftsqlserver&logoColor=black" alt="MySql"/></a>                                        
+                <a href="#"  target="_blank"><img src="https://img.shields.io/badge/-Bootstrap-purple?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Booststrap"/></a>                                       
+                <a href="#"  target="_blank"><img src="https://img.shields.io/badge/-PHP-%2300C4CC?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/></a>    
+                <a href="#"  target="_blank"><img src="https://img.shields.io/badge/laravel-orange?style=for-the-badge&logo=laravel&logoColor=white" alt="PHP"/></a>                                
+            </ul>
+        </div>
+<hr>
+<hr>           
+<br>
+        <h1 class="title_content"><u>Ferramentas</u></h1>
+         <div class="tecs_imgs">
+            <a href="https://www.adobe.com/products/photoshop.html" target="_blank"> <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" alt="photoshop" /></a>
+            <a href="https://www.canva.com/" target="_blank"> <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" alt="canva" /></a>
+            <a href="https://code.visualstudio.com/" target="_blank"> <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="visual studio code" /></a>
+         </div>
+<hr>
+<hr>
+<br>
+        <h1 class="title_content"><u>Projetos</u></h1>
+            <div class="tecs_imgs">
+             <a href="https://deluchiotsutsuki.github.io/Site_Historia/" target="blanck"><img align="center" alt="Site sobre as Tecnológias da Segunda Guerra Mundial" height="110" widht="120"src="img/logo.png"></a>
+             <a href="https://deluchiotsutsuki.github.io/Site_forca-expedicionaria-brasileira/" target="blanck"><img align="center" alt="Site sobre a Força Expedicionária Brasileira (FEB)" height="110" widht="120"src="img/feb_logo.png"></a>
+             <a href="https://deluchiotsutsuki.github.io/Site-conversor_numerico/" target="blanck"><img align="center" alt="Conversor Numérico" height="110" widht="120"src="img/logo-html5-js.png"></a>
+           </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_content">
+            <span>Created by: Gabriel Deluchi</span>
+            <span>© 2023 Direitos autorais</span>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
